@@ -1,0 +1,228 @@
+html,body{
+  background-image: url(BG3.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+
+ .responsive {
+  width: 100%;
+  height: auto;
+}
+.p{
+  background:linear-gradient(to left,#ffffff,#cdcccce4);
+  margin: 20px;
+  text-align: center;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow:#000000;
+}
+.a1{
+  background:linear-gradient(to left,#f6f0f0de,#ffffff);
+  margin: 20px;
+  text-align: center;
+  border-radius: 15px;
+  padding: 30px;
+}
+.b2{
+  width:700px;
+  background-color: #ddd;
+}
+
+
+* {box-sizing: border-box}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(0, 0, 0);
+}
+
+.html {width: 90%; background-color: #808080;}
+.css {width: 80%; background-color: #808080;}
+.js {width: 65%; background-color: #808080;}
+.php {width: 60%; background-color: #808080;}
+
+.ab{
+  display: flex;
+  flex-direction:column;
+
+}
+.c2{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+.b2{
+  background:linear-gradient(to top,#c4c4c4,#f1f1f1);
+  padding:25px;
+  margin: 5px;
+  border-radius: 15px;
+  width: 300px;
+}
+.d2{
+  background:linear-gradient(to top,#f1f1f1,#c4c4c4);
+  padding: 25px;
+  border-radius: 15px;
+
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+footer{
+  width: auto;
+  height: 45px;
+  background-color: #9b9a9a;
+  padding: 20px;
+  text-align: center;
+}
+.table{
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+.menu1 {
+  float:right;
+  width: 20%;
+  text-align: center;
+}
+
+.menu a,.menu1 a {
+  background-color: #e5e5e5;
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color: black;
+}
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+
+.right {
+  background-color: #e5e5e5;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+.link{
+margin: 15px;
+width:auto;
+margin: 5px;
+padding:12px;
+background:linear-gradient(to top,#c4c4c4,#f1f1f1);
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #727574;
+  color: rgb(186, 182, 182);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #000000;
+}
+
+.container {
+  border-radius: 5px;
+  background:linear-gradient(to right,#ffffffae,#afafafa6);
+  padding: 20px;
+}
+.icon{
+  background-color: #bbb;
+  display:flex;
+  flex-direction: row;
+  justify-content: center; 
+  justify-content: space-evenly;
+  height: 36px;
+  
+
+}
+
+
+
+
