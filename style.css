@@ -51,26 +51,43 @@ html,body{
   flex-direction:column;
 
 }
+
 .c2{
   display: flex;
   flex-direction: row;
-  justify-content:space-around;
+  margin: 30px;
 }
+
 .b2{
   background:linear-gradient(to top,#c4c4c4,#f1f1f1);
   padding:25px;
   margin: 5px;
   border-radius: 15px;
-  width: 300px;
   
+
+  
+}.parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .d2{
+  margin-top: 80px;
   background:linear-gradient(to top,#f1f1f1,#c4c4c4);
   padding: 25px;
   border-radius: 15px;
-
+  margin: 5px;
+  
 }
 
+
+
+@media (max-width: 768px) {
+ 
+  .table th, .table td {
+    width: 33.33%;
+  }
+}
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
   background-color: transparent;
